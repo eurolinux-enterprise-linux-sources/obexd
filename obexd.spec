@@ -1,7 +1,7 @@
 Name:		obexd
 Epoch:		1
 Version:	0.46
-Release:	4%{?dist}
+Release:	5%{?dist}
 Summary:	D-Bus service for Obex Client access
 
 Group:		System Environment/Daemons
@@ -46,6 +46,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/dbus-1/services/obex-client.service
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.46-5
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.46-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
